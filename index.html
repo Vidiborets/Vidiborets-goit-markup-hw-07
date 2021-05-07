@@ -366,9 +366,26 @@
                         </li>
                     </ul>
             </section>
+            <section class="section-footer-field">
+                <h2 class="footer-title-svg">Подпишитесь на рассылку</h2>
+                <div class="footer-form">
+                    <form class="footer-field">
+                        <label class="footer-field-input">
+                            <input class="input-field" type="email" name="subscribe" placeholder="E-mail">
+                        </label>
+                    <div class="button-footer-send">
+                        <button class="button footer-send">Подписаться
+                            <svg class="icon-footer-send" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    </form>
+                </div>
+            </section>
         </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal data-modal-close>
         <div class="modal">
             <button class="button-modal" data-modal-close>
                 <svg class="icon-modal">
@@ -405,17 +422,23 @@
                         </svg>
                         </label>
                     </div>
-                    <div>
+                    <div class="form-field-area">
                         <label class="form-label" for="text">
-                        <span class="name-form">Комментарий</span>
-                        <textarea name="text" id="text" cols="30" rows="10" placeholder="Введите текст"></textarea> 
+                            <span class="name-form">Комментарий</span>
+                            <textarea class="area-modal place-text" name="text" id="text" cols="30" rows="10" placeholder="Введите текст"></textarea>
                         </label>
                     </div> 
-                    <div> 
-                        <input type="checkbox" name="" id="" placeholder=" ">
-                        <label class="form-label" for="">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                    <div class="form-field-checkbox"> 
+                        <label class="form-label-lic">
+                            <input class="visually-hidden check-box-modal" type="checkbox" name="checkbox" placeholder=" ">
+                            <span class="check-box-modal"></span>
+                            <span class="form-lic-text">Соглашаюсь с рассылкой и принимаю</span>
+                            <a class="form-lic" href="#">Условия договора</a>
+                        </label>
                     </div>
-                    <button type="submit">Отправить</button>
+                    <div class="modal-button">
+                        <button class="modal-button-submit" type="submit">Отправить</button>
+                    </div>
                 </form>
             </div>
         </div>
