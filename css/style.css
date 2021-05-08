@@ -236,10 +236,12 @@ p {
     margin-top: -30px;
 }
 .menu-item{
+    position: relative;
     flex-basis: calc((100% - 3 * 30px) / 3);
     text-align: center;
     margin-left: 30px;
     margin-top: 30px;
+    display: flex;
 }
 .section-title{
     font-weight: 700;
@@ -247,6 +249,24 @@ p {
     line-height: 1.16;
     color:var(--second-text-color);
     text-align: center;
+}
+.menu-item__title{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+}
+.menu-item__text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding: 27px 80px;
 }
 /* Our Team */
 .title-name{
