@@ -348,7 +348,7 @@
                 </ul>
             </address>
         </div>
-            <section class="section-footer">
+            <div class="section-footer">
                 <p class="footer-title-svg">присоединяйтесь</p>
                     <ul class="list footer-content-svg">
                         <li class="list-footer-svg">
@@ -380,8 +380,8 @@
                             </a>
                         </li>
                     </ul>
-            </section>
-            <section class="section-footer-field">
+                </div>
+            <div class="section-footer-field">
                 <p class="footer-title-svg">Подпишитесь на рассылку</p>
                 <div class="footer-form">
                     <form class="footer-field">
@@ -397,7 +397,7 @@
                     </div>
                     </form>
                 </div>
-            </section>
+            </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -413,7 +413,7 @@
                     <div class="form-field">
                         <label class="form-label" for="name">
                             <span class="name-form">Имя</span>
-                            <input class="form-input" type="text" name="name" autocomplete="off" placeholder=" "></input>
+                            <input class="form-input" type="text" name="name" autocomplete="off" placeholder=" " id="name">
                             <svg class="svg-contact" width="18" height="18">
                                 <use class="svg-icon-modal" href="./images/icons.svg#icon-contact"></use>
                             </svg>
@@ -422,7 +422,7 @@
                     <div class="form-field">
                         <label class="form-label" for="tel">
                             <span class="name-form">Телефон</span>
-                            <input class="form-input" type="tel" name="tel" placeholder=" " autocomplete="off">
+                            <input class="form-input" type="tel" name="tel" placeholder=" " autocomplete="off" id="tel">
                             <svg class="svg-contact" width="18" height="18">
                                 <use class="svg-icon-modal" href="./images/icons.svg#icon-telephonem"></use>
                             </svg>
@@ -445,7 +445,7 @@
                     </div> 
                     <div class="form-field-checkbox"> 
                         <label class="form-label-lic">
-                            <input class="visually-hidden check-box-modal" type="checkbox" name="checkbox" placeholder=" ">
+                            <input class="visually-hidden check-box-modal" type="checkbox" name="checkbox">
                             <span class="check-box-modal"></span>
                             <span class="form-lic-text">Соглашаюсь с рассылкой и принимаю</span>
                             <a class="form-lic" href="#">Условия договора</a>
