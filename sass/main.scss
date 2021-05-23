@@ -1,23 +1,23 @@
-@import "./sass/base/card-set";
-@import "/sass/base/common";
-@import "/sass/base/container";
-@import "/sass/base/nav";
-@import "/sass/base/section";
-@import "/sass/base/site-nav";
-@import "/sass/base/portfolio";
+@import "./base/card-set";
+@import "./base/common";
+@import "./base/container";
+@import "./base/nav";
+@import "./base/section";
+@import "./base/site-nav";
+@import "./base/portfolio";
 
-@import "/sass/components/logo";
-@import "/sass/components/menu";
-@import "/sass/components/title";
-@import "/sass/components/buttons";
-@import "/sass/components/social-icons";
-@import "/sass/components/modal";
+@import "./components/logo";
+@import "./components/menu";
+@import "./components/title";
+@import "./components/buttons";
+@import "./components/social-icons";
+@import "./components/modal";
 
-@import "/sass/layouts/header";
-@import "/sass/layouts/hero";
-@import "/sass/layouts/team";
-@import "/sass/layouts/clients";
-@import "/sass/layouts/footer";
-@import "/sass/layouts/techno";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/techno";
 
-@import "/sass/utils/variables";
+@import "./utils/variables";
